@@ -32,3 +32,8 @@ The project includes a **folium-based map** showing:
 👉 Example: 
 
 ## 📂 Repository Structure
+├── data/ # Input datasets (Excel, CSV)
+├── notebooks/ # Jupyter notebooks for analysis
+├── scripts/ # Python scripts for calculations
+├── solar_tilt_ukraine_map.html # Example interactive map
+└── README.md # Project documentation
