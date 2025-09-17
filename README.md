@@ -37,8 +37,8 @@ The project includes a **folium-based map** showing:
 
 
 ## 📂 Repository Structure
-- data/ # Input datasets (Excel)
-- notebooks/ # Jupyter notebooks for analysis
-- results/ # solar_tilt_ukraine_map.html # Example interactive map
-- README.md # Project documentation
-- requirements.txt
+- **data**/ # Input datasets (Excel)
+- **notebooks**/ # Jupyter notebooks for analysis
+- **results**/ # solar_tilt_ukraine_map.html # Example interactive map
+- **README.md** # Project documentation
+- **requirements.txt**
