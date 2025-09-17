@@ -30,10 +30,15 @@ The project includes a **folium-based map** showing:
 - Losses of vertical panels vs. dynamic (ideal) panels.
 
 👉 Example: 
+<img width="1101" height="628" alt="image" src="https://github.com/user-attachments/assets/b00d739f-b4ce-4ae2-8aaf-081adf56ef25" />
+
+
+
+
 
 ## 📂 Repository Structure
-├── data/ # Input datasets (Excel, CSV)
-├── notebooks/ # Jupyter notebooks for analysis
-├── scripts/ # Python scripts for calculations
-├── solar_tilt_ukraine_map.html # Example interactive map
-└── README.md # Project documentation
+- data/ # Input datasets (Excel)
+- notebooks/ # Jupyter notebooks for analysis
+- results/ # solar_tilt_ukraine_map.html # Example interactive map
+- README.md # Project documentation
+- requirements.txt
