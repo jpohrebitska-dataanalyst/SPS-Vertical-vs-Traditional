@@ -81,7 +81,7 @@ Examples:
 
 <img width="1528" height="738" alt="image" src="https://github.com/user-attachments/assets/83608ac9-7f27-4e07-91e6-842c0d1c804a" />  
 
-[🔗 Read more (Markdown file)](results/gemini_map.png)  
+🔗 [Open Gemini Map](https://gemini.google.com/share/7263b86410c4)
 ---  
 ## 9. Key Insights for Ukraine  
 - **45° (classic tilt)** — a compromise: not perfect for any month, but provides stable annual generation.  
