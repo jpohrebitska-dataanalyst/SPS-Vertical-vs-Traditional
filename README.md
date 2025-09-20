@@ -1,44 +1,62 @@
 # SPS-Vertical-vs-Traditional
 
 This project analyzes the efficiency of **vertical solar panels (90°)** compared to **traditional fixed-tilt panels (45°)** and **dynamic panels (daily optimal tilt)**.  
-The study focuses on the **Kyiv region (Ukraine)** and extends to a **worldwide perspective** using Python and visualization tools.
+The study is based on real production data from a **10 kW vertical system in Kyiv (Ukraine)** and extended to an **analytical framework for optimal tilt strategies**.
+
+---
 
 ## 📌 Project Goals
-- Compare real electricity production from vertical panels (10kW) with theoretical efficiency.
-- Analyze **seasonal differences** (winter vs. summer).
-- Calculate **optimal tilt angles** for different regions monthly.
-- Estimate **losses** of vertical panels compared to:
-  - Traditional panels (45° tilt).
-  - Dynamic panels (ideal daily tilt).
-- Create an **interactive map** with recommendations (Ukraine and world).
+- Compare **real** vs. **theoretical** electricity production of vertical panels.
+- Assess **seasonal performance differences** (winter vs. summer).
+- Calculate **optimal tilt angles** for Kyiv and other regions.
+- Estimate **losses** of vertical panels compared to traditional and dynamic panels.
+- Create **interactive maps** with regional recommendations.
+
+---
 
 ## 🛠️ Tech Stack
-- **Python** (pandas, numpy, matplotlib, pvlib, folium)
-- **Data**: real production data from 10 kW vertical panels in Kyiv + solar position calculations
-- **Visualization**: line charts, interactive map with folium
+- **Python**: pandas, numpy, matplotlib, pvlib, folium  
+- **Data**: real production dataset (10 kW vertical SPS, Kyiv)  
+- **Visualization**: line charts, comparative plots, interactive maps  
 
-## 📊 Results & Insights
-- Vertical panels (90°) show **much higher efficiency in winter months** when the sun is low.
-- In Kyiv, vertical panels can cover energy needs in winter **8–10 kW vs. ~5 kW in summer**.
-- Losses compared to 45°-panels are acceptable in regions with long winters & **increased energy demand during cold seasons**.
-- The approach is useful for **urban installations**, **balcony solar**, and areas where traditional tilt is impractical.
+---
 
-## 🌍 Interactive Map
-The project includes a **folium-based map** showing:
-- Optimal tilt per city/region.
-- Losses of vertical panels vs. 45° fixed panels.
-- Losses of vertical panels vs. dynamic (ideal) panels.
+## 📊 Key Insights (Short Version)
+1. **45° tilt** – the best **annual compromise**, giving stable and maximal yearly output.  
+2. **Vertical panels (90°)** – excellent in **winter months**, but weaker in summer; practical for façades and balconies.  
+3. **83° tilt** – boosts winter production, though harder to maintain.  
+4. **Seasonal adjustment** (25° in April-September, 75° in Oktober-March) – gives **maximum efficiency**, but requires manual changes.  
 
-👉 Example: 
-<img width="1101" height="628" alt="image" src="https://github.com/user-attachments/assets/b00d739f-b4ce-4ae2-8aaf-081adf56ef25" />
+👉 Detailed reasoning and extended analysis: [CONCLUSIONS.md](results/CONCLUSIONS.md)
 
+---
 
+## 🌍 Interactive Maps
+The project includes **folium-based maps** to explore optimal tilt recommendations across regions.
 
+Examples:  
+- [Solar Tilt Map – Ukraine](results/solar_tilt_ukraine_map.html)  
+- Kyiv, Lviv, Chernivtsi case studies in `/results`  
 
+Screenshots:  
+![Kyiv Map](results/optimal_tilt_map_Ukraine_Kyiv.png)  
+
+---
 
 ## 📂 Repository Structure
-- **data**/ # Input datasets (Excel)
-- **notebooks**/ # Jupyter notebooks for analysis
-- **results**/ # solar_tilt_ukraine_map.html # Example interactive map
-- **README.md** # Project documentation
-- **requirements.txt**
+- **data/** → input dataset (Excel)  
+- **notebooks/** → Jupyter notebooks for calculations and plots  
+- **results/** → maps and images
+- **CONCLUSIONS.md** → project conclusions  
+- **README.md** → project documentation  
+- **requirements.txt** → dependencies  
+
+---
+
+## ✅ Summary
+- **45°** → stable, best for annual total generation.  
+- **90°** → strong **winter performance** and easy to maintain.  
+- **83°** → compromise for winter-oriented users, harder to maintain.  
+- **Seasonal tilt** → maximum yield, but less practical.  
+
+---
