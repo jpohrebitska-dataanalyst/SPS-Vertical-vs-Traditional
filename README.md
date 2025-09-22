@@ -44,12 +44,13 @@ Screenshots:
 ---
 
 ## 📂 Repository Structure
-- **data/** → input dataset (Excel)  
-- **notebooks/** → Jupyter notebooks for calculations and plots  
-- **results/** → maps and images
-- **CONCLUSIONS.md** → project conclusions  
-- **README.md** → project documentation  
-- **requirements.txt** → dependencies  
+- **data/** → input datasets (Excel, raw data)
+- **notebooks/** → Jupyter notebooks for analysis, calculations, and plots
+- **results/** → static outputs (charts, screenshots, summary maps in PNG/MD)
+- **docs/** → interactive maps published via GitHub Pages (HTML)
+- **CONCLUSIONS.md** → detailed project conclusions
+- **README.md** → main project documentation
+- **requirements.txt** → Python dependencies
 
 ---
 
