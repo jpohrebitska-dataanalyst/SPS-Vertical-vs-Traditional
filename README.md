@@ -35,6 +35,9 @@ The study is based on real production data from a **10 kW vertical system in Kyi
 ## 🌍 Interactive Maps
 The project includes **folium-based maps** to explore optimal tilt recommendations across regions.
 
+You can view the interactive Solar Tilt Map of Ukraine here:  
+[🔗 Open Map](https://jpohrebitska-dataanalyst.github.io/SPS-Vertical-vs-Traditional/solar_tilt_ukraine_map.html)
+
 Examples:  
 - [Solar Tilt Map – Ukraine](results/solar_tilt_ukraine_map.html)  
 - Kyiv, Lviv, Chernivtsi case studies in `/results`  
