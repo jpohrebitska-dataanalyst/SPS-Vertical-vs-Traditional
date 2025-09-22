@@ -8,9 +8,10 @@ The study is based on real production data from a **10 kW vertical system in Kyi
 ## 📌 Project Goals
 - Compare **real** vs. **theoretical** electricity production of vertical panels.
 - Assess **seasonal performance differences** (winter vs. summer).
-- Calculate **optimal tilt angles** for Kyiv and other regions.
+- Calculate **optimal tilt angles** for Kyiv and other regions of Ukraine.
+- Create **interactive map** with regional recommendations for Ukraine.
 - Estimate **losses** of vertical panels compared to traditional and dynamic panels.
-- Create **interactive maps** with regional recommendations.
+- Create **interactive map** with regional recommendations for the world.
 
 ---
 
