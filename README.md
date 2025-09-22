@@ -28,7 +28,8 @@ The study is based on real production data from a **10 kW vertical system in Kyi
 3. **83° tilt** – boosts winter production, though harder to maintain.  
 4. **Seasonal adjustment** (25° in April-September, 75° in Oktober-March) – gives **maximum efficiency**, but requires manual changes.  
 
-👉 Detailed reasoning and extended analysis: [CONCLUSIONS.md](main/CONCLUSIONS.md)
+👉 Detailed reasoning and extended analysis: [CONCLUSIONS.md](SPS-Vertical-vs-Traditional
+/CONCLUSIONS.md)
 
 ---
 
