@@ -68,7 +68,7 @@ Vertical panel shows:
 <img width="945" height="637" alt="image" src="https://github.com/user-attachments/assets/f6d79771-90a5-4b75-a36f-81e9be04d145" />  
 <img width="971" height="621" alt="image" src="https://github.com/user-attachments/assets/b4142983-198e-45d1-a249-a9fca01d8f55" />  
 
-[🔗 Open interactive map](docs/solar_tilt_ukraine_map.html)
+[🔗 Open interactive map](https://jpohrebitska-dataanalyst.github.io/SPS-Vertical-vs-Traditional/solar_tilt_ukraine_map.html)
 ---  
 ## 8. Global Map (SunCalc.js)  
 - Using **Gemini + SunCalc.js**, I built a global map of optimal tilt angles.  
