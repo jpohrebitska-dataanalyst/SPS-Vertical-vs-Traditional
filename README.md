@@ -32,21 +32,30 @@ The study is based on real production data from a **10 kW vertical system in Kyi
 
 ---
 
-## 🌍 Interactive Maps
-The project includes **folium-based maps** to explore optimal tilt recommendations across regions.
+## 🌍 Interactive Maps (Ukraine + global)
+1. The project includes **folium-based maps** to explore optimal tilt recommendations across regions.
 
-You can view the interactive Solar Tilt Map of Ukraine here:  
+You can view the interactive Solar Tilt Map of **Ukraine** here:  
 [🔗 Open Map](https://jpohrebitska-dataanalyst.github.io/SPS-Vertical-vs-Traditional/solar_tilt_ukraine_map.html)
 
-Screenshots:  
+Screenshot:  
 ![Kyiv Map](results/optimal_tilt_map_Ukraine_Kyiv.png)  
+
+2. Using Gemini + SunCalc.js, I built a **global** map of optimal tilt angles.
+Results are close to pvlib but simpler to compute.
+
+You can view the interactive Solar Tilt Map of **the world** here:  
+[🔗 Open Map](https://gemini.google.com/share/7263b86410c4)
+
+Screenshot:  
+![Kyiv Map](results/gemini_map.png)  
 
 ---
 
 ## 📂 Repository Structure
 - **data/** → input datasets (Excel, raw data)
 - **notebooks/** → Jupyter notebooks for analysis, calculations, and plots
-- **results/** → static outputs (charts, screenshots, summary maps in PNG/MD)
+- **results/** → static outputs (charts, screenshots, summary maps in PNG/MD, Tableau dashboard)
 - **docs/** → interactive maps published via GitHub Pages (HTML)
 - **CONCLUSIONS.md** → detailed project conclusions
 - **README.md** → main project documentation
